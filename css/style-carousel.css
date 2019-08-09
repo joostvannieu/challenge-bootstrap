@@ -1,0 +1,34 @@
+body {
+  color: #565866;
+  font-family: sans-serif; }
+
+.bg-dark-semitransparent {
+  background: #323232;
+  /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px; }
+
+.circle-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; }
+
+section {
+  margin-bottom: 50px; }
+
+p {
+  font-size: 14px;
+  line-height: 2em;
+  margin-top: 20px; }
+
+hr {
+  margin: 100px 0; }
+
+.h2-lighter {
+  color: #565866;
+  opacity: 0.7; }
+
+footer p {
+  font-size: smaller; }
+
+/*# sourceMappingURL=style-carousel.css.map */

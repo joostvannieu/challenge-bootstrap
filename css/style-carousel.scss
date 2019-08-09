@@ -1,0 +1,35 @@
+$darkgrey: #565866;
+
+body{
+  color: $darkgrey;
+  font-family: sans-serif;
+}
+.bg-dark-semitransparent{
+  background: rgb(50, 50, 50); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.circle-img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+section{
+  margin-bottom: 50px;
+}
+p{
+  font-size: 14px;
+  line-height: 2em;
+  margin-top: 20px;
+}
+hr{
+  margin: 100px 0;
+}
+.h2-lighter{
+  color: $darkgrey;
+  opacity: 0.7;
+}
+
+footer p{
+  font-size: smaller;
+}
